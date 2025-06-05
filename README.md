@@ -33,7 +33,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 ## Databázy
 - **Oracle SQL** – návrh a implementácia databázových projektov, normalizácia
 - **Vytvorenie a naplnenie vlastnej databázy** v rámci školských projektov
-- **Normalizacia
+- /////////
 
 ## 🧾 Projekty 
  [Tower Defense – semestrálny projekt z INF2](semestralky/inf2_tower_defence/README.md)
