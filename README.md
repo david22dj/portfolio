@@ -21,14 +21,17 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 
 ## Programovacie jazyky
 
-- **Java** – mierne pokročilá úroveň  
-  (polymorfizmus, serializácia, práca so súbormi, objektovo orientované princípy)  
-- **C++** – základy (Informatika 3)  
-- **Assembler** – strojovo orientované jazyky, číslicové počítače, logické systémy
-- **algoritmické a kritické myslenie** (Techniky programovania)
+- **Java** – mierne pokročilý / pokročilý 
+- **C++** – základy (Informatika 3)
+- **SQL DEVELOPER** - mierne pokročilý
+- **Assembler** – mierne pokročilý
 - **Python** – základy (stredná škola)
+
+## Iné zručnosti
+- **algoritmické a kritické myslenie** (Techniky programovania)
 - **3D tlač** - základy (PrusaSlicer, Fusion)
-- **softvérové modelovanie** - znalosť UML diagramov
+- **softvérové modelovanie** - znalosť UML diagramov, enterprise architect
+- **Tímová spolupráca** – rád pracujem v kolektíve, skúsenosti zo školských tímových projektov
 
 ## Databázy
 - **Oracle SQL** – návrh a implementácia databázových projektov, normalizácia, PL/SQL
