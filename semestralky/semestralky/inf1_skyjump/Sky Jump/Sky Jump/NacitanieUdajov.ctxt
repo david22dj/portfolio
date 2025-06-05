@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NacitanieUdajov
+comment0.text=\r\n\ Trieda\ NacitanieUdajov\ sl\u00FA\u017Ei\ na\ na\u010D\u00EDtanie\ mena\ hr\u00E1\u010Da\ a\ inicializ\u00E1ciu\r\n\ \u00FAdajov\ potrebn\u00FDch\ pre\ hru.\r\n
+comment1.params=
+comment1.target=NacitanieUdajov()
+comment1.text=\r\n\ Kon\u0161truktor\ triedy\ NacitanieUdajov.\r\n\ Inicializuje\ meno\ hr\u00E1\u010Da\ a\ vytv\u00E1ra\ objekty\ tried\ PamatPreHracov\ a\ KJTik.\r\n\ \r\n\ @throws\ IOException\ ak\ d\u00F4jde\ k\ chybe\ pri\ pr\u00E1ci\ so\ s\u00FAborom\ po\u010Das\ inicializ\u00E1cie\r\n
+comment2.params=
+comment2.target=void\ nacitajHraca()
+comment2.text=\r\n\ Na\u010D\u00EDta\ meno\ hr\u00E1\u010Da\ z\ grafick\u00E9ho\ dial\u00F3gov\u00E9ho\ okna.\r\n\ Ak\ u\u017E\u00EDvate\u013E\ nezad\u00E1\ meno,\ premennej\ sa\ prirad\u00ED\ hodnota\ `null`.\r\n
+numComments=3

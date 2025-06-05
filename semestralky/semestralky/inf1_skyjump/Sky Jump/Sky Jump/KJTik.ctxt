@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=KJTik
+comment0.text=\r\n\ T\u00FAto\ triedu\ som\ cel\u00FA\ prevzal\ zo\ svojej\ minuloro\u010Dnej\ semestr\u00E1lnej\ pr\u00E1ce.\r\n\ Trieda\ KJTik\ reprezentuje\ riadiaci\ objekt\ pre\ hern\u00FD\ cyklus.\r\n\ Trieda\ vyu\u017E\u00EDva\ kni\u017Enicu\ Shapesge.\r\n
+comment1.params=menoPrihlaseneho
+comment1.target=KJTik(java.lang.String)
+comment1.text=\r\n\ Kon\u0161truktor\ pre\ inicializ\u00E1ciu\ hern\u00E9ho\ objektu.\r\n\ Vytv\u00E1ra\ in\u0161tanciu\ triedy\ Pozadie,\ UkazovatelMetrov,\ Platformy.\r\n\ Sp\u00FA\u0161ta\ med\u00F3du\ stustiTik.\r\n\ \r\n\ @param\ menoPrihlaseneho\ meno\ prihl\u00E1sen\u00E9ho\ hr\u00E1\u010Da\r\n\ @throws\ IOException\ ak\ d\u00F4jde\ k\ chybe\ pri\ pr\u00E1ci\ so\ s\u00FAbormi\ po\u010Das\ inicializ\u00E1cie\r\n
+comment2.params=
+comment2.target=void\ stustiTik()
+comment2.text=\r\n\ Inicializuje\ hern\u00FD\ cyklus\ a\ vytvara\ polia\ xHodnoty\ a\ yHodnoty\ pre\ triedu\ Hrac.\r\n\ Spu\u0161\u0165a\ met\u00F3du\ tik.\r\n\ \r\n\ @throws\ IOException\ ak\ d\u00F4jde\ k\ chybe\ pri\ pr\u00E1ci\ so\ s\u00FAbormi\ po\u010Das\ inicializ\u00E1cie\r\n
+comment3.params=
+comment3.target=void\ tik()
+comment3.text=\r\n\ Met\u00F3da\ pre\ jeden\ krok\ hern\u00E9ho\ cyklu.\r\n\ Kontroluje\ \u010Di\ to\ \u010Do\ je\ v\ hernom\ cykle\ ma\ by\u0165\ spusten\u00E9.\r\n\ \r\n\ @throws\ IOException\ ak\ d\u00F4jde\ k\ chybe\ pri\ pr\u00E1ci\ so\ s\u00FAbormi\r\n
+comment4.params=
+comment4.target=void\ posunPlatformy()
+comment4.text=\r\n\ Posunie\ platformy\ po\ osi\ x\ a\ y.\r\n\ Kontroluje\ a\ ota\u010Da\ ich\ smer\ po\ osi\ x\ (v\ z\u00E1visloti\ od\ \u00FArovne\ hry).\r\n\ Kontroluje\ a\ ak\ prekro\u010Dia\ 800\ da\ na\ 0\ na\ osi\ y.\r\n\ Taktie\u017E\ platformy\ men\u00ED\ (v\ z\u00E1visloti\ od\ \u00FArovne\ hry).\r\n\ Vykon\u00E1va\ sa\ v\ nej\ setovanie\ xHodnoty\ a\ yHodnoty\ pre\ triedu\ Hrac.\r\n\ Vykon\u00E1va\ sa\ v\ nej\ aj\ s\u010D\u00EDtavanie\ hodn\u00F4t\ pre\ ukazovatelMetrov.\r\n\ Vykon\u00E1va\ sa\ v\ nej\ aj\ aktualizovanie\ rekordu\ hry.\r\n\ Vykon\u00E1va\ sa\ v\ nej\ aj\ posun\ pozadia.\r\n\ \r\n\ @throws\ IOException\ ak\ d\u00F4jde\ k\ chybe\ pri\ pr\u00E1ci\ so\ s\u00FAbormi\r\n
+numComments=5

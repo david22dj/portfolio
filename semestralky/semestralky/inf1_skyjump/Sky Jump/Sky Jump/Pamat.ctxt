@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Pamat
+comment0.text=\r\n\ Trieda\ Pamat\ spravuje\ jednoduch\u00E9\ ukladanie\ a\ na\u010D\u00EDtanie\ \u00FAdajov\ o\ nast\u00FApan\u00FDch\ metroch\ \r\n\ do/z\ textov\u00E9ho\ s\u00FAboru.\r\n
+comment1.params=
+comment1.target=Pamat()
+comment1.text=\r\n\ Kon\u0161truktor,\ ktor\u00FD\ inicializuje\ n\u00E1zov\ s\u00FAboru\ na\ ukladanie\ \u00FAdajov.\r\n
+comment2.params=
+comment2.target=double\ nacitajMetreZPamate()
+comment2.text=\r\n\ Na\u010D\u00EDta\ nast\u00FApan\u00E9\ metre\ zo\ s\u00FAboru.\r\n\ Ak\ s\u00FAbor\ obsahuje\ \u010D\u00EDslo,\ vr\u00E1ti\ jeho\ hodnotu.\ Ak\ s\u00FAbor\ neobsahuje\ platn\u00E9\ \u00FAdaje,\r\n\ vr\u00E1ti\ predvolen\u00FA\ hodnotu\ 0.0.\r\n\r\n\ @return\ Nast\u00FApan\u00E9\ metre\ ako\ desatinn\u00E9\ \u010D\u00EDslo.\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ s\ \u010D\u00EDtan\u00EDm\ s\u00FAboru.\r\n
+comment3.params=noveNastupaneMetre
+comment3.target=void\ ulozMetreDoPamate(double)
+comment3.text=\r\n\ Ulo\u017E\u00ED\ nov\u00E9\ nast\u00FApan\u00E9\ metre\ do\ s\u00FAboru.\r\n\ Pred\ z\u00E1pisom\ sa\ vyma\u017E\u00FA\ star\u00E9\ \u00FAdaje\ v\ s\u00FAbore.\r\n\r\n\ @param\ noveNastupaneMetre\ Nov\u00E9\ nast\u00FApan\u00E9\ metre,\ ktor\u00E9\ sa\ maj\u00FA\ ulo\u017Ei\u0165.\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ so\ z\u00E1pisom\ do\ s\u00FAboru.\r\n
+comment4.params=
+comment4.target=void\ vymazStaryRecord()
+comment4.text=\r\n\ Vyma\u017Ee\ v\u0161etky\ existuj\u00FAce\ \u00FAdaje\ zo\ s\u00FAboru.\r\n\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ pri\ manipul\u00E1cii\ so\ s\u00FAborom.\r\n
+numComments=5

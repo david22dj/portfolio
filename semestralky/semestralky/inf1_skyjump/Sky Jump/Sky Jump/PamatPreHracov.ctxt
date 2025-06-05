@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PamatPreHracov
+comment0.text=\r\n\ Trieda\ PamatPreHracov\ spravuje\ zoznam\ hr\u00E1\u010Dov\ a\ ich\ rekordy.\ \r\n\ Poskytuje\ funkcie\ na\ pridanie\ nov\u00FDch\ hr\u00E1\u010Dov,\ aktualiz\u00E1ciu\ ich\ rekordov\ \r\n\ a\ z\u00EDskanie\ tabu\u013Eky\ hr\u00E1\u010Dov.\r\n
+comment1.params=menoPrihlasenehoHraca
+comment1.target=PamatPreHracov(java.lang.String)
+comment1.text=\r\n\ Kon\u0161truktor,\ ktor\u00FD\ inicializuje\ triedu\ s\ menom\ aktu\u00E1lne\ prihlasovan\u00E9ho\ hr\u00E1\u010Da.\r\n\ Ak\ hr\u00E1\u010D\ neexistuje\ v\ pam\u00E4\u0165ovom\ s\u00FAbore,\ prid\u00E1\ sa\ s\ predvolen\u00FDm\ rekordom\ 0.0.\r\n\r\n\ @param\ menoPrihlasenehoHraca\ Meno\ hr\u00E1\u010Da,\ ktor\u00FD\ sa\ prihlasuje.\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ s\ pr\u00EDstupom\ k\ pam\u00E4\u0165ov\u00E9mu\ s\u00FAboru.\r\n
+comment2.params=
+comment2.target=PamatPreHracov()
+comment2.text=\r\n\ Kon\u0161truktor,\ ktor\u00FD\ inicializuje\ triedu\ bez\ prihlasovan\u00E9ho\ hr\u00E1\u010Da.\r\n\ Na\u010D\u00EDta\ zoznam\ hr\u00E1\u010Dov\ zo\ s\u00FAboru.\r\n\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ s\ pr\u00EDstupom\ k\ pam\u00E4\u0165ov\u00E9mu\ s\u00FAboru.\r\n
+comment3.params=
+comment3.target=void\ nacitajHracovZPamate()
+comment3.text=\r\n\ Na\u010D\u00EDta\ zoznam\ hr\u00E1\u010Dov\ a\ ich\ rekordy\ z\ pam\u00E4\u0165ov\u00E9ho\ s\u00FAboru.\r\n\r\n\ @throws\ IOException\ Ak\ s\u00FAbor\ neexistuje\ alebo\ ho\ nie\ je\ mo\u017En\u00E9\ na\u010D\u00EDta\u0165.\r\n
+comment4.params=novyHrac
+comment4.target=void\ ulozNovehoHraca(java.lang.String)
+comment4.text=\r\n\ Prid\u00E1\ nov\u00E9ho\ hr\u00E1\u010Da\ do\ zoznamu,\ ak\ e\u0161te\ neexistuje,\ a\ ulo\u017E\u00ED\ zoznam\ do\ s\u00FAboru.\r\n\r\n\ @param\ novyHrac\ Meno\ nov\u00E9ho\ hr\u00E1\u010Da.\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ so\ z\u00E1pisom\ do\ s\u00FAboru.\r\n
+comment5.params=
+comment5.target=void\ vymazVsetkychHracov()
+comment5.text=\r\n\ Vyma\u017Ee\ v\u0161etk\u00FDch\ hr\u00E1\u010Dov\ zo\ zoznamu\ aj\ zo\ s\u00FAboru.\r\n\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ pri\ manipul\u00E1cii\ so\ s\u00FAborom.\r\n
+comment6.params=novyRecord
+comment6.target=java.lang.String\ vytvorTabulkuHracov(double)
+comment6.text=\r\n\ Vytvor\u00ED\ a\ vr\u00E1ti\ tabu\u013Eku\ hr\u00E1\u010Dov\ vo\ forme\ textov\u00E9ho\ re\u0165azca.\ \r\n\ Pred\ vytvoren\u00EDm\ tabu\u013Eky\ aktualizuje\ rekord\ aktu\u00E1lneho\ hr\u00E1\u010Da,\ \r\n\ ak\ nov\u00FD\ rekord\ je\ lep\u0161\u00ED\ ne\u017E\ existuj\u00FAci.\r\n\r\n\ @param\ novyRecord\ Nov\u00FD\ rekord\ aktu\u00E1lneho\ hr\u00E1\u010Da.\r\n\ @return\ Tabu\u013Eka\ hr\u00E1\u010Dov\ vo\ forme\ textov\u00E9ho\ re\u0165azca.\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ pri\ manipul\u00E1cii\ so\ s\u00FAborom.\r\n
+comment7.params=novyRecord
+comment7.target=void\ upravHracovRecord(double)
+comment7.text=\r\n\ Aktualizuje\ rekord\ aktu\u00E1lneho\ hr\u00E1\u010Da,\ ak\ nov\u00FD\ rekord\ je\ lep\u0161\u00ED\ ne\u017E\ existuj\u00FAci.\r\n\ Zmeny\ sa\ z\u00E1rove\u0148\ ukladaj\u00FA\ do\ s\u00FAboru.\r\n\r\n\ @param\ novyRecord\ Nov\u00FD\ rekord\ aktu\u00E1lneho\ hr\u00E1\u010Da.\r\n\ @throws\ IOException\ Ak\ nastane\ probl\u00E9m\ pri\ ukladan\u00ED\ do\ s\u00FAboru.\r\n
+numComments=8

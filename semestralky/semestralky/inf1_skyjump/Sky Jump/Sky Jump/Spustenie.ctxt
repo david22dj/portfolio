@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Spustenie
+comment0.text=\r\n\ T\u00FAto\ triedu\ som\ cel\u00FA\ prevzal\ zo\ svojej\ minuloro\u010Dnej\ semestr\u00E1lnej\ pr\u00E1ce.\r\n\ T\u00E1to\ trieda\ s\ n\u00E1zvom\ Spustenie\ sl\u00FA\u017Ei\ ako\ vstupn\u00FD\ bod\ hry.\r\n\ Inicializuje\ in\u0161tanciu\ triedy\ NacitanieUdajov\ a\ sp\u00FA\u0161\u0165a\ hru.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Hlavn\u00E1\ met\u00F3da\ programu,\ ktor\u00E1\ sa\ spust\u00ED\ pri\ spusten\u00ED\ hry.\r\n\ Inicializuje\ na\u010D\u00EDtanie\ \u00FAdajov\ pre\ hru\r\n\ @param\ args\r\n\ @throws\ IOException\ ak\ d\u00F4jde\ k\ chybe\ pri\ pr\u00E1ci\ so\ s\u00FAborom\r\n
+numComments=2

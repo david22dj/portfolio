@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Platformy
+comment0.text=\r\n\ T\u00FAto\ triedu\ som\ cel\u00FA\ prevzal\ zo\ svojej\ minuloro\u010Dnej\ semestr\u00E1lnej\ pr\u00E1ce.\r\n\ Trieda\ Platformy\ predstavuje\ pole\ platforiem\ v\ hre.\r\n\ Poskytuje\ met\u00F3dy\ na\ spr\u00E1vu\ platforiem,\ ako\ ich\ prid\u00E1vanie,\ na\u010D\u00EDtanie\ a\ zistenie\ po\u010Dtu.\r\n
+comment1.params=
+comment1.target=Platformy()
+comment1.text=\r\n\ Kon\u0161truktor\ inicializuje\ pole\ platforiem\ a\ prid\u00E1\ pomocou\ met\u00F3dy\ pridajPlatformu\r\n\ platformy\ do\ po\u013Ea.\r\n
+comment2.params=x\ y
+comment2.target=void\ pridajPlatformu(int,\ int)
+comment2.text=\r\n\ Prid\u00E1\ nov\u00FA\ platformu\ na\ z\u00E1klade\ zadan\u00FDch\ s\u00FAradn\u00EDc.\r\n\ \r\n\ @param\ x\ S\u00FAradnica\ x\ novej\ platformy.\r\n\ @param\ y\ S\u00FAradnica\ y\ novej\ platformy.\r\n
+comment3.params=i
+comment3.target=Platforma\ getPlatforma(int)
+comment3.text=\r\n\ Vr\u00E1ti\ i-ty\ prvok\ po\u013Ea\ platforiem.\r\n\ \r\n\ @param\ i\ Index\ prvku,\ ktor\u00FD\ m\u00E1\ by\u0165\ vr\u00E1ten\u00FD.\r\n\ @return\ i-ty\ prvok\ po\u013Ea\ platforiem\ alebo\ null,\ ak\ index\ nie\ je\ platn\u00FD.\r\n
+comment4.params=
+comment4.target=int\ getPocetPlatforiem()
+comment4.text=\r\n\ Vr\u00E1ti\ po\u010Det\ platforiem\ v\ poli.\r\n\ \r\n\ @return\ Po\u010Det\ platforiem\ v\ poli.\r\n
+numComments=5

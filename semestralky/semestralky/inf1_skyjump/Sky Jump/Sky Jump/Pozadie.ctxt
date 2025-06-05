@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pozadie
+comment0.text=\r\n\ T\u00FAto\ triedu\ som\ cel\u00FA\ prevzal\ zo\ svojej\ minuloro\u010Dnej\ semestr\u00E1lnej\ pr\u00E1ce.\r\n\ Trieda\ Pozadie\ reprezentuje\ pozadie\ v\ hre.\r\n\ Trieda\ vyu\u017E\u00EDva\ kni\u017Enicu\ Shapesge.\r\n
+comment1.params=
+comment1.target=Pozadie()
+comment1.text=\r\n\ Kon\u0161truktor\ pre\ vytvorenie\ objektu\ Pozadie\ a\ inicializ\u00E1ciu\ zobrazen\u00FDch\ textov\u00FDch\ inform\u00E1ci\u00ED.\r\n\ Sp\u00FA\u0161\u0165a\ met\u00F3du\ zobrazPozadie.\r\n
+comment2.params=
+comment2.target=void\ zobrazPozadie()
+comment2.text=\r\n\ Met\u00F3da\ na\ zobrazenie\ pozadia.\r\n
+comment3.params=
+comment3.target=void\ posunPozadie()
+comment3.text=\r\n\ Met\u00F3da\ na\ posunutie\ pozadia.\r\n
+numComments=4

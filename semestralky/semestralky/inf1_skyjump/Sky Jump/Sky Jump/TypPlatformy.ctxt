@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TypPlatformy
+comment0.text=\r\n\ T\u00FAto\ triedu\ som\ cel\u00FA\ prevzal\ zo\ svojej\ minuloro\u010Dnej\ semestr\u00E1lnej\ pr\u00E1ce.\r\n\ Enum\ TypPlatformy\ obsahuje\ typy\ platform\ v\ hre\ s\ priraden\u00FDmi\ obr\u00E1zkov\u00FDmi\ s\u00FAbormi.\r\n
+comment1.params=link
+comment1.target=TypPlatformy(java.lang.String)
+comment1.text=\r\n\ Kon\u0161truktor\ enumu\ TypPlatformy\ s\ inicializ\u00E1ciou\ n\u00E1zvu\ obr\u00E1zkov\u00E9ho\ s\u00FAboru\ pre\ dan\u00FD\ typ\ platformy.\r\n\r\n\ @param\ link\ N\u00E1zov\ obr\u00E1zkov\u00E9ho\ s\u00FAboru\ pre\ dan\u00FD\ typ\ platformy.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLink()
+comment2.text=\r\n\ Met\u00F3da\ na\ z\u00EDskanie\ n\u00E1zvu\ obr\u00E1zkov\u00E9ho\ s\u00FAboru\ pre\ dan\u00FD\ typ\ platformy.\r\n\r\n\ @return\ N\u00E1zov\ obr\u00E1zkov\u00E9ho\ s\u00FAboru.\r\n
+numComments=3

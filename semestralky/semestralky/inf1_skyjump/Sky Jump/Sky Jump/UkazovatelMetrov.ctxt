@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UkazovatelMetrov
+comment0.text=\r\n\ T\u00FAto\ triedu\ som\ cel\u00FA\ prevzal\ zo\ svojej\ minuloro\u010Dnej\ semestr\u00E1lnej\ pr\u00E1ce.\r\n\ Trieda\ UkazovatelMetrov\ reprezentuje\ vizu\u00E1lny\ ukazovate\u013E\ pre\ zobrazenie\ prejden\u00FDch\ metrov.\r\n\ Trieda\ umo\u017E\u0148uje\ zobrazova\u0165\ aktu\u00E1lny\ po\u010Det\ prejden\u00FDch\ metrov\ hr\u00E1\u010Da\ a\ kontroluje,\ \u010Di\ sa\ tento\ po\u010Det\r\n\ stal\ nov\u00FDm\ rekordom.\ Ak\ je\ dosiahnut\u00FD\ nov\u00FD\ rekord,\ ulo\u017E\u00ED\ ho\ do\ pam\u00E4te.\r\n\ Trieda\ vyu\u017E\u00EDva\ kni\u017Enicu\ Shapesge.\r\n
+comment1.params=
+comment1.target=UkazovatelMetrov()
+comment1.text=\r\n\ Kon\u0161truktor\ pre\ vytvorenie\ objektu\ UkazovatelMetrov\ a\ inicializ\u00E1ciu\ \r\n\ zobrazovan\u00FDch\ textov\u00FDch\ inform\u00E1ci\u00ED.\r\n
+comment2.params=metre
+comment2.target=void\ zmenMetre(double)
+comment2.text=\r\n\ Met\u00F3da\ pre\ aktualiz\u00E1ciu\ zobrazen\u00FDch\ metrov.\r\n\ \r\n\ @param\ metre\ D\u013A\u017Eka,\ ktor\u00FA\ hr\u00E1\u010D\ pre\u0161iel.\r\n
+comment3.params=metre
+comment3.target=void\ zmenRecord(double)
+comment3.text=\r\n\ Met\u00F3da\ na\ zmenu\ zobrazen\u00FDch\ metrov\ a\ kontrolu,\ \u010Di\ sa\ prekonal\ rekord.\r\n\ Ak\ je\ nov\u00FD\ rekord,\ ulo\u017E\u00ED\ ho\ do\ pam\u00E4te.\r\n\ \r\n\ @param\ metre\ D\u013A\u017Eka,\ ktor\u00FA\ hr\u00E1\u010D\ pre\u0161iel,\ v\ metroch.\r\n\ @throws\ IOException\ Ak\ d\u00F4jde\ k\ chybe\ pri\ ukladan\u00ED\ nov\u00E9ho\ rekordu.\r\n
+numComments=4
