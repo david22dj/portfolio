@@ -1,4 +1,4 @@
-# 👨‍💻 Životopis
+#  Životopis
 
 ## 📄 Osobné údaje
 
@@ -31,7 +31,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 - **algoritmické a kritické myslenie** (Techniky programovania)
 - **3D tlač** - základy (PrusaSlicer, Fusion)
 - **softvérové modelovanie** - znalosť UML diagramov, enterprise architect
-- **Tímová spolupráca** – rád pracujem v kolektíve, skúsenosti zo školských tímových projektov
+- **tímová spolupráca** – rád pracujem v kolektíve, skúsenosti zo školských tímových projektov
 
 ## Databázy
 - **Oracle SQL** – návrh a implementácia databázových projektov, normalizácia, PL/SQL
