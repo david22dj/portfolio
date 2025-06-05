@@ -40,7 +40,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 ## 🧾 Projekty 
  [Tower Defense – semestrálny projekt z INF2](semestralky/inf2_tower_defence/README.md)
  
- [SkyJump – semestrálny projekt z INF1](semestralky/inf1_skyjump/README.md) 
+ [SkyJump – semestrálny projekt z INF1](semestralky/semestralky/inf1_skyjump) 
  
  [Databázové projekty – Oracle SQL (dokumentácia)](semestralky/databazy/README.md)
 
