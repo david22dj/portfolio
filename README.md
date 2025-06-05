@@ -4,7 +4,7 @@
 
 - **Meno**: David Jurík
 - **Vek**: 21 rokov
-- **Bydlisko**: Žilina / Zlato Moravecký okres
+- **Bydlisko**: Žilina / Zlaté Moravce (okres)
 - **E-mail**: daviddjjurik@gmail.com
 
 ## 👤 O mne
@@ -31,17 +31,22 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 - **softvérové modelovanie** - znalosť UML diagramov
 
 ## Databázy
-- **Oracle SQL** – návrh a implementácia databázových projektov, normalizácia
-- **Vytvorenie a naplnenie vlastnej databázy** v rámci školských projektov
-- /////////
+- **Oracle SQL** – návrh a implementácia databázových projektov, normalizácia, PL/SQL
+- **Vytvorenie a naplnenie vlastnej databázy, pracá z databázou** v rámci školských projektov
 
 ## 🧾 Projekty 
  [Tower Defense – semestrálny projekt z INF2](semestralky/inf2_tower_defence/README.md)
+ 
  [SkyJump – semestrálny projekt z INF1](semestralky/inf1_skyjump/README.md) 
- [Databázové projekty – Oracle SQL (dokumentácia)](semestralky/databazy/README.md)  
+ 
+ [Databázové projekty – Oracle SQL (dokumentácia)](semestralky/databazy/README.md)
+
+ ### Ostatné zručnosti
+- **Microsoft Excel** – pokročilý
+- **Microsoft Word** – mierne pokročilý
+- **Microsoft PowerPoint** – mierne pokročilý
 
 ## 🗣️ Jazykové znalosti
-
 - **Slovenčina** – úroveň C2 (materinský jazyk)
 - **Angličtina** – maturita na úrovni B2 (gymnázium). Rozumiem bežnej angličtine (videá, dokumentácia, prednášky), celkovo úroveň porozumenia B1. V hovorení mám zatiaľ menšiu neistotu, ale aktívne pracujem na zlepšení konverzácie.
 
