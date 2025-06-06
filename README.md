@@ -43,7 +43,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
  
  [Techniky programovania – zbierka zadaní v Jave](semestralky/techniky_programovania)
  
- [Diskrétna optimalizácia – úloha H04 s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
+ [Diskrétna optimalizácia – úloha s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
 
  [Algoritmická teória grafov – grafové algoritmy a plánovanie](semestralky/algoritmickaTeoriaGrafov)
 
