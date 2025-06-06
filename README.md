@@ -68,7 +68,7 @@ Maturita z informatiky a matematiky
 
 ## Záľuby
 - **Programovanie** – rád riešim zaujímavé problémy a učím sa nové technológie  
-- **Šport** – najmä volejbal a beach volejbal
+- **Šport** – najmä volejbal, beach volejbal, beh a turistika
 
 ## Ďalšie predmety a znalosti
 - Matematika – diskrétna optimalizácia, pravdepodobnosť a štatistika, matematická analýza
