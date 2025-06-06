@@ -51,7 +51,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 
 ## 🗣️ Jazykové znalosti
 - **Slovenčina** – úroveň C2 (materinský jazyk)
-- **Angličtina** – maturita na úrovni B2 (gymnázium). Rozumiem bežnej angličtine (videá, dokumentácia, prednášky), celkovo úroveň porozumenia B1. V hovorení mám zatiaľ menšiu neistotu, ale aktívne pracujem na zlepšení konverzácie.
+- **Angličtina** – B1 (maturita na úrovni B2 (gymnázium)).
 
 ## Ďalšie predmety a znalosti
 - Matematika – diskrétna optimalizácia, pravdepodobnosť a štatistika, matematická analýza
