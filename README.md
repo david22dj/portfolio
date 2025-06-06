@@ -66,6 +66,10 @@ Gymnázium Janka Kráľa, Zlaté Moravce
 Všeobecné štúdium s maturitou (2019 – 2023)
 Maturita z informatiky a matematiky
 
+## Záľuby
+- **Programovanie** – rád riešim zaujímavé problémy a učím sa nové technológie  
+- **Šport** – najmä volejbal a beach volejbal
+
 ## Ďalšie predmety a znalosti
 - Matematika – diskrétna optimalizácia, pravdepodobnosť a štatistika, matematická analýza
 - Algoritmická teória grafov – práca s grafovými štruktúrami, vyhľadávanie najkratších ciest, rôzne heuristiky, prehľadávanie do hĺbky a do šírky, práca so stromami
@@ -77,6 +81,6 @@ Maturita z informatiky a matematiky
 - Skupina B – aktívny vodič
 
 ## Pracovné skúsenosti
-- **Skleníky Lažany** – 2021
+- **Skleníky Slažany** – 2021
 - **Pomocné práce v lese** – 2022, 2023
-- **Bankros s.r.o.** – 2024
+- **Bencros s.r.o., Bošany** – 2024
