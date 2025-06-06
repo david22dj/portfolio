@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<displays>
+<display id="bfb1879b-0196-1000-8001-c0a8006a8dfd" type="" style="Chart" enable="true">
+	<name><![CDATA[report_filmy_podla_predajov]]></name>
+	<description><![CDATA[Report zobrazuje zoznam filmov a počet predaných lístkov. Údaje sú zoradené zostupne podľa počtu predajov, čím získame najobľúbenejšie filmy podľa návštevnosti.]]></description>
+	<tooltip><![CDATA[]]></tooltip>
+	<drillclass><![CDATA[]]></drillclass>
+	<CustomValues>
+		<TYPE><![CDATA[BAR_VERT_CLUST]]></TYPE>
+	</CustomValues>
+	<query>
+		<sql><![CDATA[SELECT
+    f.nazov AS film,
+    'počet predaných lístkov',
+    COUNT(*) AS pocet_predanych_listkov
+    
+
+FROM predane_listky pl
+JOIN film f ON f.id_filmu = pl.premietanie_film_id_filmu
+GROUP BY f.nazov
+ORDER BY pocet_predanych_listkov DESC]]></sql>
+	</query>
+</display>
+</displays>
