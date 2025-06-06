@@ -19,10 +19,10 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 
 ## Programovacie jazyky
 - **Java** – mierne pokročilý / pokročilý 
-- **C++** – základy (Informatika 3)
+- **C++** – základy
 - **Oracle SQL DEVELOPER** - mierne pokročilý
 - **Assembler** – mierne pokročilý
-- **Python** – základy (stredná škola)
+- **Python** – základy
 
 ## Iné zručnosti
 - **algoritmické a kritické myslenie** (Techniky programovania)
