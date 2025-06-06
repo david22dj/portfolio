@@ -45,7 +45,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
  
  [Diskrétna optimalizácia – úloha s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
 
- [Algoritmická teória grafov – grafové algoritmy a plánovanie](semestralky/algoritmickaTeoriaGrafov)
+ [Algoritmická teória grafov](semestralky/algoritmickaTeoriaGrafov)
 
  ## Ostatné zručnosti
 - **Microsoft Excel** – pokročilý
