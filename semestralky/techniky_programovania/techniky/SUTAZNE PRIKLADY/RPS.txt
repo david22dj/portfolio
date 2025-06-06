@@ -1,0 +1,60 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(new File("C:\\FRI\\David Jurik\\sutaz\\src\\text.txt"));
+        ArrayList<String[]> testCases = new ArrayList<>();
+
+        while(scanner.hasNextLine()) {
+            String[] pole = new String[2];
+
+            pole[0] = scanner.nextLine();
+            pole[1] = scanner.nextLine();
+
+            testCases.add(pole);
+        }
+
+        for (int i = 0; i < testCases.size() - 1; i++) {
+            String prvy = testCases.get(i)[0];
+            String druhy = testCases.get(i)[1];
+            int prvyBody = 0;
+            int druhyBody = 0;
+
+            for (int j = 0; j < prvy.length(); j++) {
+                char x = prvy.charAt(j);
+                char y = druhy.charAt(j);
+                if (x == 'R' && y == 'S') {
+                    prvyBody++;
+                } else if (x == 'S' && y == 'R') {
+                    druhyBody++;
+                } else if (x == 'R' && y == 'P') {
+                    druhyBody++;
+                } else if (x == 'P' && y == 'R') {
+                    prvyBody++;
+                } else if (x == 'S' && y == 'P') {
+                    prvyBody++;
+                } else if (x == 'P' && y == 'S') {
+                    druhyBody++;
+                }
+            }
+
+            if (i == testCases.size() - 2) {
+                System.out.println("P1: " + prvyBody);
+                System.out.print("P2: " + druhyBody);
+            }  else {
+                System.out.println("P1: " + prvyBody);
+                System.out.println("P2: " + druhyBody);
+            }
+
+        }
+
+
+    }
+}

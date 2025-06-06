@@ -1,0 +1,81 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(new File("C:\\FRI\\David Jurik\\sutaz\\src\\text.txt"));
+        ArrayList<String> mena = new ArrayList<>();
+        ArrayList<Integer> pocety = new ArrayList<>();
+
+        int pocet = scanner.nextInt();
+
+        for (int i = 0; i < pocet; i++) {
+            String word = scanner.next();
+            int index = 0;
+            boolean found = true;
+            for (int j = 0; j < mena.size(); j++) {
+                if (mena.get(j).equals(word)) {
+                    index = j;
+                    int staryPocet = pocety.get(index);
+                    pocety.set(index, staryPocet + 1);
+                    found = false;
+                    break;
+                }
+
+            }
+            if (found && mena.size() != 0) {
+                mena.add(word);
+                pocety.add(1);
+            }
+
+
+            if (mena.size() == 0) {
+                mena.add(word);
+                pocety.add(1);
+            }
+        }
+
+        for (int i = 0; i < mena.size(); i++) {
+            String word = mena.get(i);
+            int pocty = pocety.get(i);
+            //System.out.println(word + " " + pocty);
+        }
+        int najvacsi = 0;
+        for (int i = 0; i < mena.size(); i++) {
+            if (najvacsi < pocety.get(i)) {
+                najvacsi = pocety.get(i);
+            }
+        }
+        //System.out.println(najvacsi);
+        ArrayList<String> vysledneMena = new ArrayList<>();
+        for (int i = 0; i < mena.size(); i++) {
+            if (pocety.get(i) == najvacsi) {
+                vysledneMena.add(mena.get(i));
+            }
+        }
+
+        vysledneMena.sort(String::compareTo);
+
+        for (int i = 0; i < vysledneMena.size(); i++) {
+
+            if (i == vysledneMena.size() - 1) {
+                System.out.print(vysledneMena.get(i));
+            }else {
+                System.out.println(vysledneMena.get(i));
+            }
+        }
+
+
+
+
+
+
+
+
+    }
+
+}

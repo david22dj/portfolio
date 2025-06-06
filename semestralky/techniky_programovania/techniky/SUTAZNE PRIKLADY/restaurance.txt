@@ -1,0 +1,123 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(new File("C:\\FRI\\David Jurik\\sutaz\\src\\text.txt"));
+
+        int pocet = scanner.nextInt();
+        scanner.nextLine();
+        List<String> list = new ArrayList<>();
+
+        List<String> vysledky = new ArrayList<>();
+
+        for (int i = 0; i < pocet; i++) {
+            list.add(scanner.nextLine());
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+            String riadok = list.get(i);
+            List<Integer> poradie = new ArrayList<>();
+
+            for (int j = 0; j < riadok.length(); j++) {
+                if (
+                        'A' == riadok.charAt(j) ||'a' == riadok.charAt(j) ||
+                        'B' == riadok.charAt(j) ||'b' == riadok.charAt(j) ||
+                        'C' == riadok.charAt(j) ||'c' == riadok.charAt(j)
+                ) {
+                    poradie.add(2);
+                    continue;
+                }
+                if (
+                        'D' == riadok.charAt(j) ||'d' == riadok.charAt(j) ||
+                                'E' == riadok.charAt(j) ||'e' == riadok.charAt(j) ||
+                                'F' == riadok.charAt(j) ||'f' == riadok.charAt(j)
+                ) {
+                    poradie.add(3);
+                    continue;
+                }
+                if (
+                        'G' == riadok.charAt(j) ||'g' == riadok.charAt(j) ||
+                                'H' == riadok.charAt(j) ||'h' == riadok.charAt(j) ||
+                                'I' == riadok.charAt(j) ||'i' == riadok.charAt(j)
+                ) {
+                    poradie.add(4);
+                    continue;
+                }
+                if (
+                        'J' == riadok.charAt(j) ||'j' == riadok.charAt(j) ||
+                                'K' == riadok.charAt(j) ||'k' == riadok.charAt(j) ||
+                                'L' == riadok.charAt(j) ||'l' == riadok.charAt(j)
+                ) {
+                    poradie.add(5);
+                    continue;
+                }
+                if (
+                        'M' == riadok.charAt(j) ||'m' == riadok.charAt(j) ||
+                                'N' == riadok.charAt(j) ||'n' == riadok.charAt(j) ||
+                                'O' == riadok.charAt(j) ||'o' == riadok.charAt(j)
+                ) {
+                    poradie.add(6);
+                    continue;
+                }
+                if (
+                        'P' == riadok.charAt(j) ||'p' == riadok.charAt(j) ||
+                                'Q' == riadok.charAt(j) ||'q' == riadok.charAt(j) ||
+                                'R' == riadok.charAt(j) ||'r' == riadok.charAt(j) ||
+                                'S' == riadok.charAt(j) ||'s' == riadok.charAt(j)
+                ) {
+                    poradie.add(7);
+                    continue;
+                }
+                if (
+                        'T' == riadok.charAt(j) ||'t' == riadok.charAt(j) ||
+                                'U' == riadok.charAt(j) ||'u' == riadok.charAt(j) ||
+                                'V' == riadok.charAt(j) ||'v' == riadok.charAt(j)
+                ) {
+                    poradie.add(8);
+                    continue;
+                }
+                if (
+                        'W' == riadok.charAt(j) ||'w' == riadok.charAt(j) ||
+                                'X' == riadok.charAt(j) ||'x' == riadok.charAt(j) ||
+                                'Y' == riadok.charAt(j) ||'y' == riadok.charAt(j) ||
+                                'Z' == riadok.charAt(j) ||'z' == riadok.charAt(j)
+                ) {
+                    poradie.add(9);
+                    continue;
+                }
+            }
+
+            String vPoradi = "";
+            String naopak = "";
+
+            for (Integer integer : poradie) {
+                vPoradi += integer;
+            }
+
+            for (int j = poradie.size(); j > 0; j--) {
+                naopak += poradie.get(j - 1);
+            }
+
+            if (vPoradi.equals(naopak)) {
+                vysledky.add("YES");
+            } else {
+                vysledky.add("NO");
+            }
+        }
+        for (int i = 0; i < vysledky.size(); i++) {
+            if (i < vysledky.size() - 1) {
+                System.out.println(vysledky.get(i));
+            } else {
+                System.out.print(vysledky.get(i));
+            }
+        }
+
+
+    }
+}

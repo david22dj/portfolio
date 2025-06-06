@@ -1,0 +1,3 @@
+red green blue 1
+turquoise magenta indigo 4
+black white black 10000000000000

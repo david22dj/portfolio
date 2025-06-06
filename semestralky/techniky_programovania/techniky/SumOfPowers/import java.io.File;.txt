@@ -1,0 +1,44 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+
+    public static int countWays(int x, int n, int num) {
+        int power = (int) Math.pow(num, n);
+        if (power > x) return 0;
+        if (power == x) return 1;
+
+        // Include num in the sum or skip it
+        return countWays(x - power, n, num + 1) + countWays(x, n, num + 1);
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
+        //Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(new File("C:\\David Jurík\\Uniza\\2roc\\leto\\techniky 1\\SumOfPowers\\SumOfPowers\\src\\text.txt"));
+        List<Integer> results = new ArrayList<>();
+        List<int[]> testCases = new ArrayList<>();
+
+        while (scanner.hasNext()) {
+            int x = scanner.nextInt();
+            if (x == -1) break;
+            int n = scanner.nextInt();
+            testCases.add(new int[]{x, n});
+        }
+
+        for (int[] testCase : testCases) {
+            results.add(countWays(testCase[0], testCase[1], 1));
+        }
+
+        for (int i = 0; i < results.size(); i++) {
+            System.out.print(results.get(i));
+            if (i < results.size() - 1) {
+                System.out.println();
+            }
+        }
+
+        scanner.close();
+    }
+}

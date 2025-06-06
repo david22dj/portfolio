@@ -1,0 +1,18 @@
+1
+VLC FC Valencia
+BCN FC Barcelona
+MAD Real Madrid
+SEV FC Sevilla
+
+FC Valencia - Real Madrid 4:3
+FC Barcelona - FC Sevilla 2:1
+FC Sevilla - Real Madrid 2:3
+Real Madrid - FC Barcelona 0:1
+FC Barcelona - FC Valencia 2:1
+FC Valencia - FC Sevilla 1:0
+FC Barcelona - Real Madrid 2:0
+FC Valencia - FC Barcelona 1:1
+FC Sevilla - FC Valencia 1:0
+Real Madrid - FC Valencia 2:1
+FC Sevilla - FC Barcelona 0:1
+Real Madrid - FC Sevilla 2:0

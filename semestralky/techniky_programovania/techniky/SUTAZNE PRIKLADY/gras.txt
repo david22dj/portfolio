@@ -1,0 +1,69 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) throws FileNotFoundException {
+        //Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(new File("C:\\FRI\\David Jurik\\sutaz\\src\\text.txt"));
+        ArrayList<int[]> testCases = new ArrayList<>();
+
+
+
+
+
+        while(scanner.hasNextInt()) {
+            int[] pole = new int[6];
+
+            pole[0] = scanner.nextInt();
+            pole[1] = scanner.nextInt();
+            pole[2] = scanner.nextInt();
+            pole[3] = scanner.nextInt();
+            pole[4] = scanner.nextInt();
+            pole[5] = scanner.nextInt();
+
+            testCases.add(pole);
+        }
+
+        for (int i = 0; i < testCases.size(); i++) {
+            int xPola = testCases.get(i)[0];
+            int yPola = testCases.get(i)[1];
+            int gregorX = testCases.get(i)[2];
+            int gregorY = testCases.get(i)[3];
+            int listX = testCases.get(i)[4];
+            int listY = testCases.get(i)[5];
+
+            int skoky = 0;
+
+            while (gregorX != listX || gregorY != listY) {
+                if (gregorX > listX) {
+                    gregorX--;
+                }
+                if (gregorY > listY) {
+                    gregorY--;
+                }
+                if (gregorX < listX) {
+                    gregorX++;
+                }
+                if (gregorY < listY) {
+                    gregorY++;
+                }
+
+                skoky++;
+            }
+            if(i == testCases.size() - 1) {
+                System.out.print(skoky);
+            } else {
+                System.out.println(skoky);
+            }
+        }
+
+
+
+
+    }
+}

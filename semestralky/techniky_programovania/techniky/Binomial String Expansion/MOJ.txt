@@ -1,0 +1,70 @@
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int pocet = scanner.nextInt();
+        scanner.nextLine();
+
+        String[] testCases = new String[pocet];
+        for (int i = 0; i < pocet; i++) {
+            testCases[i] = scanner.nextLine();
+        }
+
+        for (int i = 0; i < pocet; i++) {
+            ArrayList<BigInteger> koeficienty = new ArrayList<>();
+            String a = testCases[i];
+            String[] parts = a.split("[\\(+]");
+            a = parts[1];
+            String b = parts[2];
+            String[] partss = b.split("[\\)^]");
+            b = partss[0];
+            String kS = partss[2];
+            int k = Integer.parseInt(kS);
+
+            if (k == 1) {
+                System.out.println("Case " + (i + 1) + ": " + a + "+" + b);
+            } else {
+                System.out.print("Case " + (i + 1) + ": ");
+
+                for (int j = 0; j <= k; j++) {
+                    BigInteger binom = faktorial(k)
+                            .divide(faktorial(j).multiply(faktorial(k - j)));
+                    koeficienty.add(binom);
+                }
+
+                int mocninaA = k;
+                int mocninaB = 0;
+
+                for (int j = 0; j <= k; j++) {
+                    if (j == 0) {
+                        System.out.print(a + "^" + mocninaA + "+");
+                    } else if (j == k) {
+                        System.out.print(b + "^" + mocninaB);
+                    } else if (j == 1) {
+                        System.out.print(koeficienty.get(j) + "*" + a + "^" + mocninaA + "*" + b + "+");
+                    } else if (j == (k - 1)) {
+                        System.out.print(koeficienty.get(j) + "*" + a + "*" + b + "^" + mocninaB + "+");
+                    } else {
+                        System.out.print(koeficienty.get(j) + "*" + a + "^" + mocninaA + "*" + b + "^" + mocninaB + "+");
+                    }
+                    mocninaA--;
+                    mocninaB++;
+                }
+                if (i != (pocet - 1)) {
+                    System.out.println();
+                }
+            }
+        }
+    }
+
+    public static BigInteger faktorial(int n) {
+        BigInteger vysledok = BigInteger.ONE;
+        for (int i = 2; i <= n; i++) {
+            vysledok = vysledok.multiply(BigInteger.valueOf(i));
+        }
+        return vysledok;
+    }
+}

@@ -1,0 +1,107 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(new File("C:\\FRI\\David Jurik\\sutaz\\src\\text.txt"));
+
+        int pocet = scanner.nextInt();
+        scanner.nextLine();
+
+        List<String> testCases = new ArrayList<>();
+        List<String> sekvencie = new ArrayList<>();
+
+        sekvencie.add("TTT");
+        sekvencie.add("TTH");
+        sekvencie.add("THT");
+        sekvencie.add("THH");
+        sekvencie.add("HTT");
+        sekvencie.add("HTH");
+        sekvencie.add("HHT");
+        sekvencie.add("HHH");
+
+        List<Integer> pocty = null;
+        List<String> vysledky = new ArrayList<>();
+
+        
+
+        for (int i = 0; i < pocet; i++) {
+            scanner.nextLine();
+            testCases.add(scanner.nextLine());
+        }
+
+        
+
+        for (int i = 0; i < testCases.size(); i++) {
+            String riadok = "";
+            pocty = null;
+            pocty = new ArrayList<>();
+            pocty.add(0);
+            pocty.add(0);
+            pocty.add(0);
+            pocty.add(0);
+            pocty.add(0);
+            pocty.add(0);
+            pocty.add(0);
+            pocty.add(0);
+            riadok = testCases.get(i);
+
+            for (int j = 0; j < riadok.length(); j++) {
+                String jedna = "";
+                char premenna1 = riadok.charAt(j);
+                char premenna2 = ' ';
+                char premenna3 = ' ';
+                if (j + 1 < riadok.length()) {
+                    premenna2 = riadok.charAt(j+1);
+                }
+                if (j + 2 < riadok.length()) {
+                    premenna3 = riadok.charAt(j+2);
+                }
+
+
+                jedna += premenna1;
+                jedna += premenna2;
+                jedna += premenna3;
+
+                for (int k = 0; k < sekvencie.size(); k++) {
+                    if (sekvencie.get(k).equals(jedna)) {
+                        int stare = pocty.get(k);
+                        stare++;
+                        pocty.set(k, stare);
+                        break;
+                    }
+                }
+            }
+            
+            String vysledok = "";
+
+            for (int j = 0; j < pocty.size(); j++) {
+                vysledok += pocty.get(j);
+                if (j < pocty.size() - 1) {
+                    vysledok += " ";
+                }
+            }
+            vysledky.add(vysledok);
+
+        }
+        int pocitadlo = 1;
+        for (int i = 0; i < vysledky.size(); i++) {
+            if (i < vysledky.size() -1) {
+                System.out.println(pocitadlo + " " + vysledky.get(i));
+            } else {
+                System.out.print(pocitadlo + " " + vysledky.get(i));
+            }
+            pocitadlo++;
+
+        }
+
+
+
+    }
+}
+

@@ -1,0 +1,24 @@
+2
+
+hit
+hot
+dot
+dog
+cog
+log
+lot
+*
+hit cog
+hit dog
+
+map
+mad
+pad
+bad
+bat
+cat
+rat
+mat
+*
+map mat
+map bat

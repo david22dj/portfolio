@@ -1,0 +1,216 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(new File("C:\\David Jurík\\Uniza\\2roc\\leto\\techniky 1\\David Jurik\\sutaz\\src\\text.txt"));
+
+        List<String> list = new ArrayList<>();
+
+        List<String> vysledky = new ArrayList<>();
+
+        while (scanner.hasNextLine()) {
+            list.add(scanner.nextLine());
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+            String riadok = list.get(i);
+            riadok = riadok.toUpperCase();
+            List<String> slovo = new ArrayList<>();
+
+            for (int j = 0; j < riadok.length(); j++) {
+                if (riadok.charAt(j) == 'A') {
+                    slovo.add(".-");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'B') {
+                    slovo.add("-...");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'C') {
+                    slovo.add("-.-.");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'D') {
+                    slovo.add("-..");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'E') {
+                    slovo.add(".");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'F') {
+                    slovo.add("..-.");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'G') {
+                    slovo.add("--.");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'H') {
+                    slovo.add("....");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'I') {
+                    slovo.add("..");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'J') {
+                    slovo.add(".---");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'K') {
+                    slovo.add("-.-");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'L') {
+                    slovo.add(".-..");
+                    continue;
+                }
+
+
+
+
+
+                if (riadok.charAt(j) == 'M') {
+                    slovo.add("--");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'N') {
+                    slovo.add("-.");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'O') {
+                    slovo.add("---");
+                    continue;
+                }if (riadok.charAt(j) == 'P') {
+                    slovo.add(".--.");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'Q') {
+                    slovo.add("--.-");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'R') {
+                    slovo.add(".-.");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'S') {
+                    slovo.add("...");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'T') {
+                    slovo.add("-");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'U') {
+                    slovo.add("..-");
+                    continue;
+                }if (riadok.charAt(j) == 'V') {
+                    slovo.add("...-");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'W') {
+                    slovo.add(".--");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'X') {
+                    slovo.add("-..-");
+                    continue;
+                }
+
+
+
+
+
+                if (riadok.charAt(j) == 'Y') {
+                    slovo.add("-.--");
+                    continue;
+                }
+                if (riadok.charAt(j) == 'Z') {
+                    slovo.add("--..");
+                    continue;
+                }
+                if (riadok.charAt(j) == '0') {
+                    slovo.add("-----");
+                    continue;
+                }if (riadok.charAt(j) == '1') {
+                    slovo.add(".----");
+                    continue;
+                }
+                if (riadok.charAt(j) == '2') {
+                    slovo.add("..---");
+                    continue;
+                }
+                if (riadok.charAt(j) == '3') {
+                    slovo.add("...--");
+                    continue;
+                }
+                if (riadok.charAt(j) == '4') {
+                    slovo.add("....-");
+                    continue;
+                }
+                if (riadok.charAt(j) == '5') {
+                    slovo.add(".....");
+                    continue;
+                }
+                if (riadok.charAt(j) == '6') {
+                    slovo.add("-....");
+                    continue;
+                }if (riadok.charAt(j) == '7') {
+                    slovo.add("--...");
+                    continue;
+                }
+                if (riadok.charAt(j) == '8') {
+                    slovo.add("---..");
+                    continue;
+                }
+                if (riadok.charAt(j) == '9') {
+                    slovo.add("----.");
+                    continue;
+                }
+
+
+            }
+
+            String vPoradi = "";
+            String naopak = "";
+
+            for (String integer : slovo) {
+                vPoradi += integer;
+            }
+
+            for (int j = vPoradi.length(); j > 0; j--) {
+                naopak += vPoradi.charAt(j-1);
+            }
+            if (slovo.size() == 0) {
+                naopak = " ";
+            }
+
+            if (vPoradi.equals(naopak)) {
+                vysledky.add("YES");
+            } else {
+                vysledky.add("NO");
+            }
+
+
+        }
+
+
+        for (int i = 0; i < vysledky.size(); i++) {
+            if (i < vysledky.size() - 1) {
+                System.out.println(vysledky.get(i));
+            } else {
+                System.out.print(vysledky.get(i));
+            }
+        }
+
+
+    }
+}
+
