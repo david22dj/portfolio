@@ -38,7 +38,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 - **Vytvorenie a naplnenie vlastnej databázy, pracá z databázou** v rámci školských projektov
 
 ## 🧾 Projekty 
- [Tower Defense – semestrálny projekt z INF2](semestralky/inf2_tower_defence/README.md)
+ [Tower Defense – semestrálny projekt z INF2](semestralky/inf2_tower_defense)
  
  [SkyJump – semestrálny projekt z INF1](semestralky/semestralky/inf1_skyjump) 
  
