@@ -39,9 +39,13 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
  
  [SkyJump – semestrálny projekt z INF1](semestralky/semestralky/inf1_skyjump) 
  
- [Databázové projekty – Oracle SQL (dokumentácia)](semestralky/databazy/README.md)
+ [Databázové projekty – Oracle SQL (dokumentácia)](semestralky/databazy)
+ 
+ [Techniky programovania – zbierka zadaní v Jave](semestralky/techniky_programovania)
+ 
+ [Diskrétna optimalizácia – úloha H04 s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
 
- [Techniky programovania – zbierka zadaní v Jave](semestralky/techniky_programovania/README.md)
+ [Algoritmická teória grafov – grafové algoritmy a plánovanie](semestralky/algoritmickaTeoriaGrafov)
 
  ## Ostatné zručnosti
 - **Microsoft Excel** – pokročilý
