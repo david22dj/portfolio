@@ -1,0 +1,35 @@
+701
+Bratislava
+Bratislava-Vinohrady
+Pezinok
+Trnava
+Hlohovec
+Nitra
+Topolcany
+Prievidza
+702
+Prievidza
+Topolcany
+Nitra
+Hlohovec
+Trnava
+Pezinok
+Bratislava-Vinohrady
+Bratislava
+703
+Zilina
+Bytca
+Povazska Bystrica
+Puchov
+Trencin
+Nové Mesto nad Váhom
+Trnava
+Bratislava-Vinohrady
+Bratislava
+704
+Bratislava
+Bratislava-Vinohrady
+Trnava
+Hlohovec
+Topolcany
+Prievidza
