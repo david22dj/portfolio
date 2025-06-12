@@ -1,0 +1,6 @@
+﻿  FutbalKrajiny.cpp
+C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\FutbalKrajiny\FutbalKrajiny\FutbalKrajiny.cpp(13,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\FutbalKrajiny\FutbalKrajiny\FutbalKrajiny.cpp(22,13): warning C4930: 'MemLeak memLeak(void)': prototyped function not called (was a variable definition intended?)
+  NacitanieKrajin.cpp
+  Generating Code...
+  FutbalKrajiny.vcxproj -> C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\FutbalKrajiny\x64\Debug\FutbalKrajiny.exe
