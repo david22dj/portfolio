@@ -42,6 +42,8 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
  [Databázové projekty – Oracle SQL (dokumentácia)](semestralky/databazy)
  
  [Techniky programovania – zbierka zadaní v Jave](semestralky/techniky_programovania)
+
+ [C++ úlohy - INF3](semestralky/algoritmickaTeoriaGrafov)
  
  [Diskrétna optimalizácia – úloha s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
 
