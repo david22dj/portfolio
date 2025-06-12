@@ -23,6 +23,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 - **Oracle SQL DEVELOPER** - mierne pokročilý
 - **Assembler** – mierne pokročilý
 - **Python** – základy
+- **CISCO CCNAv7: Introduction to Networks**
 
 ## Iné zručnosti
 - **algoritmické a kritické myslenie** (Techniky programovania)
@@ -43,7 +44,9 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
  
  [Techniky programovania – zbierka zadaní v Jave](semestralky/techniky_programovania)
 
- [C++ úlohy - INF3](semestralky/algoritmickaTeoriaGrafov)
+ [C++ úlohy - INF3](semestralky/Ulohy_C++)
+
+ [sken CISCO CERTIFIKAT CISCO CCNAv7: Introduction to Networks](semestralky/Ulohy_C++)
  
  [Diskrétna optimalizácia – úloha s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
 
