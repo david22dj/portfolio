@@ -1,0 +1,3 @@
+﻿  Nacitaj.cpp
+C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\NacitajAZapis_MENA_DATUMY\NacitajAZapis_MENA_DATUMY\Nacitaj.cpp(63,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  NacitajAZapis_MENA_DATUMY.vcxproj -> C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\NacitajAZapis_MENA_DATUMY\x64\Debug\NacitajAZapis_MENA_DATUMY.exe

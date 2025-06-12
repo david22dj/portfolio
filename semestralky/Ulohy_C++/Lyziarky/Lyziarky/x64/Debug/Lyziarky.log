@@ -1,0 +1,7 @@
+﻿  Lyziarky.cpp
+C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\Lyziarky\Lyziarky\Lyziarky.cpp(27,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\Lyziarky\Lyziarky\Lyziarky.cpp(34,13): warning C4930: 'MemLeak memLeak(void)': prototyped function not called (was a variable definition intended?)
+  Nacitanie.cpp
+C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\Lyziarky\Lyziarky\Nacitanie.cpp(87,12): warning C4477: 'printf' : format string '%20s' requires an argument of type 'char *', but variadic argument 2 has type 'std::string'
+  Generating Code...
+  Lyziarky.vcxproj -> C:\David Jurík\Uniza\2roc\zima\Informatika 3\skuskaaaaaaaaaaaa\Lyziarky\x64\Debug\Lyziarky.exe
