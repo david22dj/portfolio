@@ -13,7 +13,7 @@ Počas štúdia som získal skúsenosti s tímovou spoluprácou pri viacerých s
 
 Aktívne hľadám letnú brigádu v IT oblasti, ktorú by som v prípade obojstrannej spokojnosti rád predĺžil aj popri ďalšom štúdiu. Preferujem **remote spoluprácu**, prípadne prácu v okolí **Žiliny** alebo **Zlato Moraveckého okresu**.
 
-Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť odborné aj osobnostne.
+Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť odborne aj osobnostne.
 
 ## Zručnosti
 
