@@ -81,6 +81,7 @@ Maturita z informatiky a matematiky
 - Techniky programovania – zameranie na algoritmické a kritické myslenie, analýza problémov, odhad zložitosti, bitové operácie, práca s veľkými číslami, reťazcami, rekurziou a formátovacími úlohami  
   - Práca s algoritmami vo viacerých jazykoch (Java, C++)  
   - Základy súťažného programovania (inšpirácia ACM ICPC)
+- Pravdepodobnosť a štatistika - Predmet poskytuje základné znalosti z pravdepodobnosti a štatistiky s praktickým zameraním na inžinierske úlohy. Študenti sa naučia správne vyberať a aplikovať štatistické metódy, analyzovať dáta a overovať hypotézy. Výuka aj cvičenia prebiehali v Exceli, čím si študenti zdokonalili jeho používanie.
  
 ## Vodičský preukaz
 - Skupina B – aktívny vodič
