@@ -76,7 +76,7 @@ Maturita z informatiky a matematiky
 - **Šport** – najmä volejbal, beach volejbal, beh a turistika
 
 ## Ďalšie predmety a znalosti
-- Matematika – diskrétna optimalizácia, pravdepodobnosť a štatistika, matematická analýza
+- Matematika – diskrétna optimalizácia, matematická analýza
 - Algoritmická teória grafov – práca s grafovými štruktúrami, vyhľadávanie najkratších ciest, rôzne heuristiky, prehľadávanie do hĺbky a do šírky, práca so stromami
 - Techniky programovania – zameranie na algoritmické a kritické myslenie, analýza problémov, odhad zložitosti, bitové operácie, práca s veľkými číslami, reťazcami, rekurziou a formátovacími úlohami  
   - Práca s algoritmami vo viacerých jazykoch (Java, C++)  
