@@ -46,7 +46,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 
  [C++ úlohy - INF3](semestralky/Ulohy_C++)
 
- [sken CISCO CERTIFIKAT CISCO CCNAv7: Introduction to Networks](semestralky/Ulohy_C++)
+ [Scan CISCO CERTIFIKAT CISCO CCNAv7: Introduction to Networks](semestralky/CISCO_KURZ_SCAN)
  
  [Diskrétna optimalizácia – úloha s heuristikami](semestralky/diskretnaOptimalizaciaHeuristiky) 
 
