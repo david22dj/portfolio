@@ -44,6 +44,8 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
  
  [Techniky programovania – zbierka zadaní v Jave](semestralky/techniky_programovania)
 
+ [Python - AI trading bot](semestralky/python_AI_tradingBot)
+
  [C++ úlohy - INF3](semestralky/Ulohy_C++)
 
  [Scan CISCO CERTIFIKAT CISCO CCNAv7: Introduction to Networks](semestralky/CISCO_KURZ_SCAN)
