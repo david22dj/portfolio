@@ -1,1 +1,1 @@
-
+Vytvoril som vlastnú neurónovú sieť v Pythone (bez frameworkov) na analýzu historických dát Bitcoinu (z Binance) a predikciu pohybu ceny o niekoľko intervalov dopredu. Model klasifikuje krátkodobý trend na pokles, rast alebo stabilitu a následne simuluje jednoduchú obchodnú stratégiu. Pri spätnom testovaní na posledných 6 mesiacoch dát (1h intervaly) dokázal algoritmus zhodnotiť kapitál z 20 USD na 26 USD, čo predstavuje zisk +30 %. Súčasťou riešenia je vizualizácia obchodov priamo na grafe ceny.
