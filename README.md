@@ -67,7 +67,7 @@ Mojím cieľom je ďalej sa rozvíjať vo firme, ktorá mi dá priestor rásť o
 Žilinská univerzita v Žiline
 Fakulta riadenia a informatiky
 Bakalárske štúdium – Informatika (2023 – súčasnosť)
-Aktuálny študijný priemer: 1.68
+Aktuálny študijný priemer: 1.58
 
 Gymnázium Janka Kráľa, Zlaté Moravce
 Všeobecné štúdium s maturitou (2019 – 2023)
